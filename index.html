@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pratik Kumar Dewan - Resume</title>
+  <style>
+    /* Global Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    /* Profile Image */
+    .profile-image {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      display: block;
+      margin: 0 auto 20px;
+    }
+
+    /* Headings */
+    h1, h2, h3 {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    /* Contact Info */
+    .contact-info {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    /* Sections */
+    .section {
+      margin-bottom: 30px;
+    }
+
+    .section h2 {
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 10px;
+    }
+
+    /* Skills */
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 10px;
+    }
+
+    .skill-category {
+      background-color: #f2f2f2;
+      padding: 10px;
+    }
+
+    /* Projects */
+    .project {
+      padding: 5px;
+      margin-bottom: 5px;
+    }
+
+    .project-header {
+      text-align: center;
+    }
+
+    .project-header h3{
+        margin-bottom: 0px;
+        text-decoration: underline;
+        font-style: italic;
+    }
+
+    .project-header p{
+        margin-top: 0px;
+        margin-bottom: 5px;
+    }
+
+    #project-p{
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    .education-item p{
+        text-align: center;
+        margin-top: 0px;
+      }
+
+      .education-item h3{
+        margin-bottom: 0px;
+      }
+
+    /* Responsive Styles */
+    @media (max-width: 767px) {
+      .container {
+        padding: 10px;
+      }
+
+      .profile-image {
+        width: 100px;
+        height: 100px;
+      }
+
+      h1 {
+        font-size: 24px;
+      }
+
+      h2 {
+        font-size: 18px;
+      }
+
+      h3 {
+        font-size: 16px;
+      }
+
+      .contact-info {
+        font-size: 14px;
+      }
+
+      .skills li {
+        font-size: 14px;
+      }
+
+      .project {
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div>
+      <img src="assets/Pratik.JPG" alt="Professional Photo" class="profile-image">
+      <h1>Pratik Kumar Dewan</h1>
+      <h2>B.Tech. Graduate</h2>
+    </div>
+
+    <div class="contact-info">
+      Kolkata, West Bengal, India | 7439761320 | pratikkumardewan@gmail.com<br>
+      LinkedIn: <a href="https://www.linkedin.com/in/pratik-kumar-dewan">pratik kumar dewan</a> | GitHub: <a href="https://github.com/pratikkumardewan">pratikkumardewan</a>
+    </div>
+
+    <div class="section">
+      <h2>PROFESSIONAL SUMMARY</h2>
+      <p>Results-driven B.Tech graduate specializing in full-stack development with strong foundations in data structures, algorithms, and object-oriented programming. Demonstrated success in developing innovative solutions across multiple technology stacks. Seeking to leverage technical expertise and problem-solving skills at leading technology companies.</p>
+    </div>
+
+    <div class="section">
+      <h2>TECHNICAL SKILLS</h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3>Programming Languages</h3>
+          <ul>
+            <li>Java</li>
+            <li>Python</li>
+            <li>C</li>
+            <li>C++</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h3>Web Technologies</h3>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h3>Database</h3>
+          <ul>
+            <li>MySQL</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h3>Developer Tools</h3>
+          <ul>
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>VS Code</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h3>Core Competencies</h3>
+          <ul>
+            <li>Data Structures & Algorithms</li>
+            <li>OOP</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h3>Additional Tools</h3>
+          <ul>
+            <li>MS Office Suite</li>
+            <li>WordPress</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>PROJECTS</h2>
+      <div class="project">
+        <div class="project-header">
+          <h3>Smart Home Automation System</h3>
+          <p>(<strong>Skills Used:</strong> IoT, Embedded C, Python)</p>
+        </div>
+        
+        <p id="project-p">Engineered a scalable IoT solution for remote monitoring and control of home appliances by implementing secure device communication protocols and user authentication.</p>
+      </div>
+
+      <div class="project">
+        <div class="project-header">
+          <h3>Personal Virtual Assistant</h3>
+          <p>(<strong>Skills Used:</strong> Python)</p>
+        </div>
+        <p id="project-p">Developed an AI-powered assistant capable of handling multiple user commands.</p>
+      </div>
+
+      <div class="project">
+        <div class="project-header">
+          <h3>Employee Management System</h3>
+          <p>(<strong>Skills Used:</strong> C++, MySQL)</p>
+        </div>
+        <p id="project-p">Designed and implemented a comprehensive database system for employee records. Created efficient search and filter algorithms for quick data retrieval.</p>
+      </div>
+
+      <div class="project">
+        <div class="project-header">
+          <h3>Web Development Projects</h3>
+          <p>(<strong>Skills Used:</strong> HTML/CSS, JavaScript)</p>
+        </div>
+        <p id="project-p">Built multiple responsive and dynamic websites with interactive features.</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>EDUCATION</h2>
+      <div class="education-item">
+        <h3>Bachelor of Technology (B.Tech.) in ECE</h3>
+        <p>Narula Institute of Technology<br>
+        Duration: 2020 -- 2024 | CGPA: 8.05/10</p>
+      </div>
+
+      <div class="education-item">
+        <h3>Class 12 (WBCHSE)</h3>
+        <p>Patha Bhavan School<br>
+        Duration: 2018 -- 2020 | Percentage: 72%</p>
+      </div>
+
+      <div class="education-item">
+        <h3>Class 10 (WBBSE)</h3>
+        <p>Patha Bhavan School<br>
+        Duration: 2017 -- 2018 | Percentage: 70%</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>CERTIFICATIONS</h2>
+      <ul>
+        <li>Introduction to Python Programming - University of Pennsylvania (Coursera)</li>
+        <li>Core Java Development - Euphoria Genx</li>
+        <li>IoT Programming and Architecture - POSTECH (Coursera)</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>LANGUAGES</h2>
+      <ul>
+        <li>English (Professional)</li>
+        <li>Bengali (Native)</li>
+        <li>Hindi (Professional)</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>SOFT SKILLS</h2>
+      <ul>
+        <li>Strong analytical thinking</li>
+        <li>Team collaboration</li>
+        <li>Problem-solving</li>
+        <li>Quick learner</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
