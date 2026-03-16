@@ -54,7 +54,7 @@ async function main() {
         return;
     }
 
-    else {
+    try{
         const data = await getWeatherDetails(location);
         const icon = getWeatherIcon(data.weather);
 
@@ -81,6 +81,14 @@ async function main() {
                 <p id="humidity">Humidity: ${data.humidity}%</p>
             </div>
         `;
+    }catch(e){
+        outputBox.style.border = "2px solid white";
+        outputBox.style.borderRadius = "8px";
+        outputBox.style.padding = "25px";
+        const mssg = document.createElement('p');
+        mssg.textContent = "Error Message : Location Not Found !!";
+        mssg.setAttribute('id',"errorMssg");
+        outputBox.appendChild(mssg);
     }
 
     inputBox.value="";
