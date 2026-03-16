@@ -82,6 +82,7 @@ async function main() {
             </div>
         `;
     }catch(e){
+        outputBox.replaceChildren();
         outputBox.style.border = "2px solid white";
         outputBox.style.borderRadius = "8px";
         outputBox.style.padding = "25px";
