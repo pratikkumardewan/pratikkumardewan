@@ -120,6 +120,10 @@ main{
     text-align: center;
 }
 
+#errorMssg{
+    color:red;
+    font-size: 16px;
+}
 
 @media (min-width: 1024px) {
     .outer-wrapper{
